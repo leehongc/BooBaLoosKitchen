@@ -15,6 +15,7 @@ body {
 /* Main content should expand to fill available space */
 .mainContent {
     flex: 1; /* This makes the content area take up remaining space */
+    padding: 1% 8% 0 8%;
 }
 
 /* Footer styles */
