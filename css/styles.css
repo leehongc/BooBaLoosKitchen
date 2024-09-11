@@ -1,14 +1,42 @@
+/* Ensure the entire viewport is covered */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Flexbox for the body to manage layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% of the viewport height */
+}
+
+/* Main content should expand to fill available space */
+.mainContent {
+    flex: 1; /* This makes the content area take up remaining space */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for style */
+}
+
+
 .navbar {
     display: flex;
-    justify-content: space-between; /* Distribute space between items */
-    align-items: center;           /* Align items vertically */
-    background-color: #f8f9fa;     /* Light background color */
-    padding: 10px 20px;            /* Add some padding */
+    justify-content: space-around; /* Distribute space around items */
+    align-items: center;            /* Align items vertically */
+    background-color: #f8f9fa;    /* Light background color */
+    padding: 10px 20px;             /* Add some padding */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
 .navbar h1 {
-    font-size: 24px;               /* Adjust font size for the title */
+    font-size: 35px;               /* Adjust font size for the title */
     margin: 0;                     /* Remove default margin */
 }
 
@@ -20,16 +48,16 @@
 }
 
 .navbar ul li {
-    margin-left: 20px;             /* Add space between list items */
+    margin-left: 30px;             /* Add space between list items */
 }
 
 .navbar ul li a {
     text-decoration: none;         /* Remove underline from links */
-    color: #333;                   /* Set link color */
-    font-size: 16px;               /* Adjust font size */
+    color: #333;                 /* Set link color */
+    font-size: 18px;               /* Adjust font size */
     transition: color 0.3s ease;   /* Add a smooth transition for hover effect */
 }
 
 .navbar ul li a:hover {
-    color: #007BFF;                /* Change link color on hover */
+    color: #007BFF;              /* Change link color on hover */
 }
