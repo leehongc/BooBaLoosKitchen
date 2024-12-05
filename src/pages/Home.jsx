@@ -24,6 +24,7 @@ const Home = () => {
   return (
     <main className="py-12">
       <Container>
+        {/* Header Section */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h1 className="font-serif text-4xl md:text-5xl mb-4">
             Welcome to BooBaLoo's Kitchen
@@ -33,7 +34,8 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Cards Section */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((category) => (
             <Card key={category.title} className="p-6">
               <h3 className="font-serif text-xl mb-2">{category.title}</h3>
