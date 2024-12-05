@@ -1,40 +1,55 @@
-// src/pages/Home.jsx
-import { Link } from 'react-router-dom'
+import { Container } from '../components/layout/Container';
+import { Card } from '../components/ui/Card';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
+  const categories = [
+    {
+      title: 'Food Recipes',
+      description: 'Explore our delicious main dishes and sides',
+      link: '/recipes',
+    },
+    {
+      title: 'Drink Recipes',
+      description: 'Refreshing beverages for any occasion',
+      link: '/drinks',
+    },
+    {
+      title: 'Dessert Recipes',
+      description: 'Sweet treats and delightful desserts',
+      link: '/desserts',
+    },
+  ];
+
   return (
-    <div className="mainContent">
-      <div className="home-hero">
-        <h1>Welcome to BooBaLoo's Kitchen</h1>
-        <p className="hero-text">
-          Discover our collection of favorite recipes, from comfort food classics to exciting new dishes.
-        </p>
-      </div>
-
-      <div className="featured-categories">
-        <h2>Recipe Categories</h2>
-        <div className="category-grid">
-          <div className="category-card">
-            <h3>Food Recipes</h3>
-            <p>Explore our delicious main dishes and sides</p>
-            <Link to="/recipes" className="category-link">Browse Food Recipes →</Link>
-          </div>
-
-          <div className="category-card">
-            <h3>Drink Recipes</h3>
-            <p>Refreshing beverages for any occasion</p>
-            <Link to="/recipes" className="category-link">Browse Drink Recipes →</Link>
-          </div>
-
-          <div className="category-card">
-            <h3>Dessert Recipes</h3>
-            <p>Sweet treats and delightful desserts</p>
-            <Link to="/recipes" className="category-link">Browse Desserts →</Link>
-          </div>
+    <main className="py-12">
+      <Container>
+        <div className="text-center max-w-2xl mx-auto mb-16">
+          <h1 className="font-serif text-4xl md:text-5xl mb-4">
+            Welcome to BooBaLoo's Kitchen
+          </h1>
+          <p className="text-gray-600 text-lg">
+            Discover our collection of favorite recipes, from comfort food classics to exciting new dishes.
+          </p>
         </div>
-      </div>
-    </div>
-  )
-}
 
-export default Home
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {categories.map((category) => (
+            <Card key={category.title} className="p-6">
+              <h3 className="font-serif text-xl mb-2">{category.title}</h3>
+              <p className="text-gray-600 mb-4">{category.description}</p>
+              <Link
+                to={category.link}
+                className="text-blue-600 hover:text-blue-800 font-medium"
+              >
+                Browse recipes →
+              </Link>
+            </Card>
+          ))}
+        </div>
+      </Container>
+    </main>
+  );
+};
+
+export default Home;

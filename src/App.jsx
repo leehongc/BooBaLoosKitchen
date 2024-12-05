@@ -1,24 +1,30 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Home from './pages/Home'
-import Recipes from './pages/Recipes'
-import About from './pages/About'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Home from './pages/Home';
+import Recipes from './pages/Recipes';
+import About from './pages/About';
+import Drinks from './pages/Drinks'; // Import Drinks page
+import Desserts from './pages/Desserts'; // Import Desserts page
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <div className="app">
+    <BrowserRouter>
+      <div className="min-h-screen flex flex-col">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/recipes" element={<Recipes />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        <main className="flex-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/recipes" element={<Recipes />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/drinks" element={<Drinks />} /> {/* Add Drinks route */}
+            <Route path="/desserts" element={<Desserts />} /> {/* Add Desserts route */}
+          </Routes>
+        </main>
         <Footer />
       </div>
-    </Router>
-  )
-}
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
