@@ -1,6 +1,5 @@
 import { Container } from '../components/layout/Container';
 import { RecipeGrid } from '../components/recipes/RecipeGrid';
-import { Search } from 'lucide-react';
 
 const Recipes = () => {
   const foodRecipes = [
@@ -41,27 +40,9 @@ const Recipes = () => {
           <p className="text-gray-600 leading-relaxed mb-8">
             Explore our curated collection of delicious food recipes. Whether you're cooking for a crowd or just for yourself, we've got something for everyone.
           </p>
-          
-          <div className="relative max-w-md mx-auto">
-            <input
-              type="search"
-              placeholder="Search recipes..."
-              className="w-full pl-12 pr-4 py-3 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:border-transparent"
-            />
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-          </div>
         </header>
 
-        <div className="py-8">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="font-serif text-2xl">All Recipes</h2>
-            <select className="px-4 py-2 border border-gray-200 rounded-lg bg-white">
-              <option>Most Recent</option>
-              <option>Most Popular</option>
-              <option>Quick & Easy</option>
-            </select>
-          </div>
-          
+        <div className="py-8">         
           <RecipeGrid recipes={foodRecipes} />
         </div>
       </Container>
