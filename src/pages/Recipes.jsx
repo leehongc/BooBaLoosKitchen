@@ -1,6 +1,6 @@
 import { Container } from '../components/layout/Container';
 import { RecipeGrid } from '../components/recipes/RecipeGrid';
-import foodRecipes from '../lib/foodRecipes.js';
+import foodRecipeTitles from '../lib/foodRecipeTitles.js';
 
 const Recipes = () => {
   
@@ -15,7 +15,7 @@ const Recipes = () => {
         </header>
 
         <div className="py-8">         
-          <RecipeGrid recipes={foodRecipes} />
+          <RecipeGrid recipes={foodRecipeTitles} />
         </div>
       </Container>
     </div>
