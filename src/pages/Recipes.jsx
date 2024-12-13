@@ -1,6 +1,6 @@
 import { Container } from '../components/layout/Container';
 import { RecipeGrid } from '../components/recipes/RecipeGrid';
-import foodRecipeTitles from '../lib/foodRecipeTitles.js';
+import foodRecipeTitles from '../lib/foodRecipeTitles';
 
 const Recipes = () => {
   

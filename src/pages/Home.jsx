@@ -1,25 +1,10 @@
 import { Container } from '../components/layout/Container';
 import { Card } from '../components/ui/Card';
 import { Link } from 'react-router-dom';
+import homeCategories from '../lib/homeCategories';
 
 const Home = () => {
-  const categories = [
-    {
-      title: 'Food Recipes',
-      description: 'Explore our delicious main dishes and sides',
-      link: '/recipes',
-    },
-    {
-      title: 'Drink Recipes',
-      description: 'Refreshing beverages for any occasion',
-      link: '/drinks',
-    },
-    {
-      title: 'Dessert Recipes',
-      description: 'Sweet treats and delightful desserts',
-      link: '/desserts',
-    },
-  ];
+  
 
   return (
     <main className="py-12">
@@ -36,7 +21,7 @@ const Home = () => {
 
         {/* Cards Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {categories.map((category) => (
+          {homeCategories.map((category) => (
             <Card key={category.title} className="p-6">
               <h3 className="font-serif text-xl mb-2">{category.title}</h3>
               <p className="text-gray-600 mb-4">{category.description}</p>
