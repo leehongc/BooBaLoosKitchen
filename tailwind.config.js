@@ -2,10 +2,6 @@ module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
-      },
       colors: {
         gray: {
           100: '#f7f7f7',

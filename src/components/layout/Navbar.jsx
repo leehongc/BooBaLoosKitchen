@@ -7,7 +7,7 @@ const Navbar = () => {
       <Container>
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="text-xl font-serif text-gray-900">
-            BooBaLoo's Kitchen
+          <h1 className="text-3xl">BooBaLoo's Kitchen</h1>
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link to="/" className="text-gray-600 hover:text-gray-900">Home</Link>

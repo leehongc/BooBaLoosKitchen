@@ -2,15 +2,15 @@ import { Clock, ChefHat } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { Card } from '../ui/Card'
 
-export const RecipeCard = ({ recipe }) => {
-  const { title, prepTime, cookTime, difficulty, tags, image } = recipe
+export const RecipeCard = ({ recipe, type = 'recipes' }) => {
+  const { title, prepTime, difficulty, tags, image } = recipe
 
   return (
     <Card hover className="group">
-      <Link to={`/recipes/${recipe.id}`}>
+      <Link to={`/${type}/${recipe.id}`}>
         <div className="aspect-video relative overflow-hidden rounded-t-lg">
           <img 
-            src="https://placehold.co/800x450"
+            src={image || "https://placehold.co/800x450"}
             alt={title}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
@@ -24,7 +24,7 @@ export const RecipeCard = ({ recipe }) => {
           <div className="flex items-center text-sm text-gray-500 mb-4 space-x-6">
             <div className="flex items-center">
               <Clock className="w-4 h-4 mr-2" />
-              <span>{prepTime + cookTime} min</span>
+              <span>{prepTime} min</span>
             </div>
             <div className="flex items-center">
               <ChefHat className="w-4 h-4 mr-2" />

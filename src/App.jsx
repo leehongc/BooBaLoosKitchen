@@ -5,8 +5,10 @@ import Home from './pages/Home';
 import Recipes from './pages/Recipes';
 import About from './pages/About';
 import Drinks from './pages/Drinks'; // Import Drinks page
+import DrinkDetail from './pages/DrinkDetail';
 import Desserts from './pages/Desserts'; // Import Desserts page
 import RecipeDetail from './pages/RecipeDetail';
+
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
             <Route path="/recipes" element={<Recipes />} />
             <Route path="/about" element={<About />} />
             <Route path="/drinks" element={<Drinks />} /> {/* Add Drinks route */}
+            <Route path="/drinks/:id" element={<DrinkDetail />} />
             <Route path="/desserts" element={<Desserts />} /> {/* Add Desserts route */}
             <Route path="/recipes/:id" element={<RecipeDetail />} />
           </Routes>
