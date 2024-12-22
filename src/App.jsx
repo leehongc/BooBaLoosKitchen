@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
+import About from './pages/About';
 import Recipes from './pages/Recipes';
 import RecipeDetail from './pages/RecipeDetail';
 import Drinks from './pages/Drinks';
@@ -11,12 +12,13 @@ import DessertDetail from './pages/DessertDetail';
 
 function App() {
   return (
-    <BrowserRouter basename="/BooBaLoos_Kitchen">
+    <BrowserRouter basename="/BooBaLoosKitchen">
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
             <Route path="/recipes" element={<Recipes />} />
             <Route path="/recipes/:id" element={<RecipeDetail />} />
             <Route path="/drinks" element={<Drinks />} />
