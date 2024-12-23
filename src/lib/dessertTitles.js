@@ -10,11 +10,11 @@ const dessertTitles = [
     },
     {
       id: 2,
-      title: 'Cranberry Orange Scones',
+      title: 'Blueberry-Lemon Scones',
       prepTime: 20,
       cookTime: 25,
-      difficulty: 'Easy',
-      tags: ['Breakfast', 'Scones', 'Brunch'],
+      difficulty: 'Medium',
+      tags: ['Breakfast', 'Scones', 'Brunch', 'Blueberry'],
       image: 'https://placehold.co/800x450'
     },
     {
