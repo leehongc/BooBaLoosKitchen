@@ -1,11 +1,11 @@
 const dessertTitles = [
     {
       id: 1,
-      title: 'Classic New York Cheesecake',
-      prepTime: 30,
-      cookTime: 60,
-      difficulty: 'Medium', 
-      tags: ['Baking', 'Classic', 'Cheesecake'],
+      title: "Leslie's Oatmeal Cookies",
+      prepTime: 15,
+      cookTime: 13,
+      difficulty: 'Easy',
+      tags: ['Cookies', 'Baking', 'Oatmeal'],
       image: 'https://placehold.co/800x450'
     },
     {
