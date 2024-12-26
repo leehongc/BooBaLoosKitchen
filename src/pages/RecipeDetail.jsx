@@ -88,6 +88,21 @@ const RecipeDetail = () => {
                   </li>
                 ))}
               </ul>
+
+              {recipe.source && (
+                <p className="text-sm text-gray-500 mt-2">
+                  Source: {recipe.sourceUrl ? (
+                    <a 
+                      href={recipe.sourceUrl} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="underline hover:text-gray-700"
+                    >
+                      {recipe.source}
+                    </a>
+                  ) : recipe.source}
+                </p>
+              )}
             </div>
             
             <div className="md:col-span-2">

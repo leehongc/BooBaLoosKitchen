@@ -93,6 +93,21 @@ const DrinkDetail = () => {
                   </li>
                 ))}
               </ul>
+
+              {drink.source && (
+                <p className="text-sm text-gray-500 mt-2">
+                  Source: {drink.sourceUrl ? (
+                    <a 
+                      href={drink.sourceUrl} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="underline hover:text-gray-700"
+                    >
+                      {drink.source}
+                    </a>
+                  ) : drink.source}
+                </p>
+              )}
             </div>
             
             <div className="md:col-span-2">
