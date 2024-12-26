@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Card } from '../ui/Card'
 
 export const RecipeCard = ({ recipe, type = 'recipes' }) => {
-  const { title, prepTime, difficulty, tags, image } = recipe
+  const { title, prepTime, cookTime, difficulty, tags, image } = recipe
 
   return (
     <Card hover className="group">
@@ -24,7 +24,7 @@ export const RecipeCard = ({ recipe, type = 'recipes' }) => {
           <div className="flex items-center text-sm text-gray-500 mb-4 space-x-6">
             <div className="flex items-center">
               <Clock className="w-4 h-4 mr-2" />
-              <span>{prepTime} min</span>
+              <span>{prepTime + cookTime} min</span>
             </div>
             <div className="flex items-center">
               <ChefHat className="w-4 h-4 mr-2" />
