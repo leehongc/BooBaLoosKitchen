@@ -19,11 +19,11 @@ const foodRecipeTitles = [
     },
     {
       id: 3,
-      title: 'Vegetable Stir-Fry',
-      prepTime: 10,
-      cookTime: 15,
+      title: 'San Francisco-Style Vietnamese American Garlic Noodles',
+      prepTime: 5,
+      cookTime: 10,
       difficulty: 'Easy',
-      tags: ['Vegetarian', 'Quick', 'Dinner'],
+      tags: ['Asian Fusion', 'Pasta', 'Quick'],
       image: 'https://placehold.co/800x450'
     }
   ];

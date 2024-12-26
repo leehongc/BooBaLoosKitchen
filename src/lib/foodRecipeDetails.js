@@ -61,35 +61,35 @@ const foodRecipeDetails = [
   },
   {
     id: 3,
-    title: 'Vegetable Stir-Fry',
-    description: "A colorful and nutritious vegetable stir-fry with a savory sauce. Quick to prepare and easily customizable with your favorite vegetables.",
-    prepTime: 10,
-    cookTime: 15,
+    title: 'San Francisco-Style Vietnamese American Garlic Noodles',
+    description: "A savory and aromatic noodle dish created by J. Kenji López-Alt, featuring a rich garlic butter sauce enhanced with Asian condiments.",
+    prepTime: 5,
+    cookTime: 10,
     difficulty: 'Easy',
     servings: 4,
-    tags: ['Vegetarian', 'Quick', 'Dinner'],
+    tags: ['Asian Fusion', 'Pasta', 'Quick'],
     image: 'https://placehold.co/800x450',
+    source: "By J. Kenji López-Alt",
+    sourceUrl: "https://cooking.nytimes.com/recipes/1023012-san-francisco-style-vietnamese-american-garlic-noodles",
     ingredients: [
-      "2 cups broccoli florets",
-      "1 red bell pepper, sliced",
-      "2 carrots, julienned",
-      "1 cup snap peas",
-      "1 cup mushrooms, sliced",
-      "3 cloves garlic, minced",
-      "1 inch ginger, minced",
-      "3 tablespoons soy sauce",
-      "1 tablespoon cornstarch",
-      "2 tablespoons vegetable oil",
-      "1/2 cup vegetable broth"
+      "4 tablespoons unsalted butter",
+      "20 medium garlic cloves, minced or smashed",
+      "4 teaspoons oyster sauce",
+      "2 teaspoons light soy sauce or shoyu",
+      "2 teaspoons fish sauce",
+      "1 pound dry spaghetti",
+      "1 ounce grated Parmesan or Pecorino Romano",
+      "Thinly sliced scallions (optional)"
     ],
     instructions: [
-      "Mix soy sauce, cornstarch, and vegetable broth in a small bowl. Set aside.",
-      "Heat oil in a large wok or skillet over high heat.",
-      "Add garlic and ginger, stir-fry for 30 seconds until fragrant.",
-      "Add harder vegetables (carrots, broccoli) first, stir-fry for 2-3 minutes.",
-      "Add remaining vegetables, cook for another 2-3 minutes until crisp-tender.",
-      "Pour sauce mixture over vegetables, stir until thickened.",
-      "Season to taste and serve hot over rice or noodles."
+      "Melt butter in a wok or saucepan over medium heat. Add garlic and cook until fragrant but not browned, about 2 minutes.",
+      "Add oyster sauce, soy sauce and fish sauce, stir to combine. Remove from heat.",
+      "Bring 1½ inches of water to boil in a 12-inch skillet over high heat.",
+      "Add pasta, stir to prevent clumping, cook until just shy of al dente (2 minutes less than package time).",
+      "Transfer pasta to garlic sauce using tongs, keeping pasta water.",
+      "Add cheese, stir and toss vigorously over high heat until sauce is creamy and emulsified, about 30 seconds.",
+      "Adjust consistency with pasta water if needed.",
+      "Stir in optional scallions and serve immediately."
     ]
   }
 ];
