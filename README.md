@@ -63,6 +63,10 @@ Follow these steps to run the project locally:
    npm run preview
    ```
 
+6. To deploy this site to GitHub pages:
+   ```bash
+   npm run deploy
+   ```
 ### Folder Structure
 - `src/` - Contains the source code (components, styles, assets, etc.)
 - `public/` - Static assets available in the build
