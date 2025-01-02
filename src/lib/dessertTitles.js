@@ -19,11 +19,11 @@ const dessertTitles = [
     },
     {
       id: 3,
-      title: 'Classic Banana Bread',
-      prepTime: 15,
-      cookTime: 60,
+      title: 'Sous Vide Yogurt',
+      prepTime: 30,
+      cookTime: 690,
       difficulty: 'Easy',
-      tags: ['Quick Bread', 'Breakfast', 'Snack'],
+      tags: ['Breakfast', 'Dairy', 'Sous Vide', 'Fermented'],
       image: 'https://placehold.co/800x450'
     }
    ];

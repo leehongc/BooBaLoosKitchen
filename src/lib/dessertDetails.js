@@ -75,36 +75,29 @@ const dessertDetails = [
     },
     {
       id: 3,
-      title: 'Classic Banana Bread',
-      description: "A moist and tender quick bread made with ripe bananas. This timeless recipe creates the perfect balance of banana flavor and sweet warmth.",
-      prepTime: 15,
-      cookTime: 60,
+      title: 'Sous Vide Yogurt',
+      description: "A foolproof method for making creamy, live-culture yogurt using a sous vide.",
+      prepTime: 30,
+      cookTime: 690, // 11.5 hours (5 hours incubation + 6.5 hours cooling/setting)
       difficulty: 'Easy',
-      servings: 10,
-      tags: ['Quick Bread', 'Breakfast', 'Snack'],
+      servings: 5,
+      tags: ['Breakfast', 'Dairy', 'Sous Vide', 'Fermented'],
       image: 'https://placehold.co/800x450',
+      source: "Recipe adapted from Chef Steps",
+      sourceUrl: "https://www.youtube.com/watch?v=PMInAL7JRRo",
       ingredients: [
-        "3 ripe bananas, mashed",
-        "1/3 cup melted butter",
-        "1/2 cup granulated sugar",
-        "1 large egg",
-        "1 teaspoon vanilla extract",
-        "1 teaspoon baking soda",
-        "1/4 teaspoon salt",
-        "1 1/2 cups all-purpose flour",
-        "Optional:",
-        "1/2 cup chopped walnuts",
-        "1/2 teaspoon cinnamon"
+        "800g whole milk",
+        "40g live-culture yogurt"
       ],
       instructions: [
-        "Preheat oven to 350°F (175°C). Grease 9x5 inch loaf pan.",
-        "Mix mashed bananas with melted butter in large bowl.",
-        "Stir in sugar, egg, and vanilla.",
-        "Sprinkle baking soda and salt over mixture.",
-        "Stir in flour until just combined. Add nuts if using.",
-        "Pour batter into prepared pan.",
-        "Bake 60 minutes or until toothpick comes out clean.",
-        "Let cool in pan for 10 minutes before removing."
+        "Preheat sous vide to 109°F (43°C).",
+        "Warm milk to 180°F (82°C) in a pot over low heat, stirring occasionally to prevent scalding.",
+        "Cool milk to 110°F (43°C) or below using an ice bath or at room temperature.",
+        "In a separate bowl, mix yogurt with a portion of the cooled milk until smooth.",
+        "Add remaining milk to the yogurt mixture and stir until combined.",
+        "Pour mixture into a large (1L) canning jar or multiple small jars. Secure lids.",
+        "Place jars in preheated water bath and incubate for at least 5 hours.",
+        "Transfer yogurt to refrigerator and let set overnight.",
       ]
     }
   ];
