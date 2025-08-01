@@ -1,4 +1,7 @@
-// src/lib/dessertDetails.js
+import oatmealCookies from '../assets/images/oatmeal-cookies.png'
+import blueberryScones from '../assets/images/blueberry-scones.png'
+import yogurt from '../assets/images/yogurt.png'
+
 const dessertDetails = [
     {
       id: 1,
@@ -9,7 +12,7 @@ const dessertDetails = [
       difficulty: 'Easy',
       servings: 10,
       tags: ['Cookies', 'Baking', 'Oatmeal'],
-      image: 'https://placehold.co/800x450',
+      image: oatmealCookies,
       source: "From Leslie DeBoer",
       ingredients: [
         "1 cup old-fashioned rolled oats",
@@ -43,7 +46,7 @@ const dessertDetails = [
       difficulty: 'Medium',
       servings: 6,
       tags: ['Breakfast', 'Scones', 'Brunch', 'Blueberry'],
-      image: 'https://placehold.co/800x450',
+      image: blueberryScones,
       source: "Recipe adapted from Serious Eats",
       sourceUrl: "https://www.seriouseats.com/lemon-blueberry-scones-vegan-recipe",
       ingredients: [
@@ -82,7 +85,7 @@ const dessertDetails = [
       difficulty: 'Easy',
       servings: 5,
       tags: ['Breakfast', 'Dairy', 'Sous Vide', 'Fermented'],
-      image: 'https://placehold.co/800x450',
+      image: yogurt,
       source: "Recipe adapted from Chef Steps",
       sourceUrl: "https://www.youtube.com/watch?v=PMInAL7JRRo",
       ingredients: [

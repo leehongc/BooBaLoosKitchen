@@ -1,3 +1,7 @@
+import oatmealCookies from '../assets/images/oatmeal-cookies.png'
+import blueberryScones from '../assets/images/blueberry-scones.png'
+import yogurt from '../assets/images/yogurt.png'
+
 const dessertTitles = [
     {
       id: 1,
@@ -6,7 +10,7 @@ const dessertTitles = [
       cookTime: 13,
       difficulty: 'Easy',
       tags: ['Cookies', 'Baking', 'Oatmeal'],
-      image: 'https://placehold.co/800x450'
+      image: oatmealCookies
     },
     {
       id: 2,
@@ -15,7 +19,7 @@ const dessertTitles = [
       cookTime: 25,
       difficulty: 'Medium',
       tags: ['Breakfast', 'Scones', 'Brunch', 'Blueberry'],
-      image: 'https://placehold.co/800x450'
+      image: blueberryScones
     },
     {
       id: 3,
@@ -24,7 +28,7 @@ const dessertTitles = [
       cookTime: 690,
       difficulty: 'Easy',
       tags: ['Breakfast', 'Dairy', 'Sous Vide', 'Fermented'],
-      image: 'https://placehold.co/800x450'
+      image: yogurt
     }
    ];
    
