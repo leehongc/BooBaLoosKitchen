@@ -1,3 +1,7 @@
+import spaghettiCarbonara from '../assets/images/spaghetti-carbonara.jpg'
+import grilledChickenSalad from '../assets/images/grilled-chicken-salad.png'
+import garlicNoodles from '../assets/images/garlic-noodles.jpg'
+
 const foodRecipeTitles = [
     {
       id: 1,
@@ -6,7 +10,7 @@ const foodRecipeTitles = [
       cookTime: 20,
       difficulty: 'Medium',
       tags: ['Pasta', 'Italian', 'Dinner'],
-      image: 'https://placehold.co/800x450'
+      image: spaghettiCarbonara
     },
     {
       id: 2,
@@ -15,7 +19,7 @@ const foodRecipeTitles = [
       cookTime: 15,
       difficulty: 'Easy',
       tags: ['Salad', 'Healthy', 'Lunch'],
-      image: 'https://placehold.co/800x450'
+      image: grilledChickenSalad
     },
     {
       id: 3,
@@ -24,7 +28,7 @@ const foodRecipeTitles = [
       cookTime: 10,
       difficulty: 'Easy',
       tags: ['Asian Fusion', 'Pasta', 'Quick'],
-      image: 'https://placehold.co/800x450'
+      image: garlicNoodles
     }
   ];
 

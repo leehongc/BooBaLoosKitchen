@@ -1,5 +1,3 @@
-// src/lib/foodRecipeDetails.js
-
 import spaghettiCarbonara from '../assets/images/spaghetti-carbonara.jpg'
 import grilledChickenSalad from '../assets/images/grilled-chicken-salad.png'
 import garlicNoodles from '../assets/images/garlic-noodles.jpg'
