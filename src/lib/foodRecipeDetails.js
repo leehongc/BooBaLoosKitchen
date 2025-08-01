@@ -1,4 +1,10 @@
 // src/lib/foodRecipeDetails.js
+
+import spaghettiCarbonara from '../assets/images/spaghetti-carbonara.jpg'
+import grilledChickenSalad from '../assets/images/grilled-chicken-salad.png'
+import garlicNoodles from '../assets/images/garlic-noodles.jpg'
+
+
 const foodRecipeDetails = [
   {
     id: 1,
@@ -9,7 +15,7 @@ const foodRecipeDetails = [
     difficulty: 'Medium',
     servings: 4,
     tags: ['Pasta', 'Italian', 'Dinner'],
-    image: 'https://placehold.co/800x450',
+    image: spaghettiCarbonara,
     ingredients: [
       "400g spaghetti",
       "200g pancetta or guanciale, diced",
@@ -38,7 +44,7 @@ const foodRecipeDetails = [
     difficulty: 'Easy',
     servings: 2,
     tags: ['Salad', 'Healthy', 'Lunch'],
-    image: 'https://placehold.co/800x450',
+    image: grilledChickenSalad,
     ingredients: [
       "2 chicken breasts",
       "1 head romaine lettuce, chopped",
@@ -68,7 +74,7 @@ const foodRecipeDetails = [
     difficulty: 'Easy',
     servings: 4,
     tags: ['Asian Fusion', 'Pasta', 'Quick'],
-    image: 'https://placehold.co/800x450',
+    image: garlicNoodles,
     source: "By J. Kenji López-Alt",
     sourceUrl: "https://cooking.nytimes.com/recipes/1023012-san-francisco-style-vietnamese-american-garlic-noodles",
     ingredients: [
