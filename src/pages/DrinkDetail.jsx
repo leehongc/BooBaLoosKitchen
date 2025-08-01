@@ -1,4 +1,3 @@
-// src/pages/DrinkDetail.jsx
 import { Clock, Users, ChefHat, GlassWater } from 'lucide-react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Container } from '../components/layout/Container';

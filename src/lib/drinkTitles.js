@@ -1,3 +1,7 @@
+import mojito from '../assets/images/mojito.png'
+import pinaColada from '../assets/images/pina-colada.jpg'
+import espressoMartini from '../assets/images/espresso-martini.png'
+
 const drinksTitles = [
     {
       id: 1,
@@ -5,7 +9,7 @@ const drinksTitles = [
       prepTime: 5,
       difficulty: 'Easy',
       tags: ['Rum', 'Refreshing', 'Cocktail'],
-      image: 'https://placehold.co/800x450'
+      image: mojito
     },
     {
       id: 2,
@@ -13,7 +17,7 @@ const drinksTitles = [
       prepTime: 5,
       difficulty: 'Medium',
       tags: ['Coffee', 'Vodka', 'Cocktail'],
-      image: 'https://placehold.co/800x450'
+      image: espressoMartini
     },
     {
       id: 3,
@@ -21,7 +25,7 @@ const drinksTitles = [
       prepTime: 10,
       difficulty: 'Easy',
       tags: ['Non-Alcoholic', 'Tropical', 'Smoothie'],
-      image: 'https://placehold.co/800x450'
+      image: pinaColada
     }
   ];
   

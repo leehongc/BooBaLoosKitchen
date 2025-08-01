@@ -1,3 +1,7 @@
+import mojito from '../assets/images/mojito.png'
+import pinaColada from '../assets/images/pina-colada.jpg'
+import espressoMartini from '../assets/images/espresso-martini.png'
+
 const drinksDetails = [
     {
       id: 1,
@@ -7,7 +11,7 @@ const drinksDetails = [
       difficulty: 'Easy',
       servings: 1,
       tags: ['Rum', 'Refreshing', 'Cocktail'],
-      image: 'https://placehold.co/800x450',
+      image: mojito,
       ingredients: [
         "2 oz white rum",
         "1 oz fresh lime juice",
@@ -33,7 +37,7 @@ const drinksDetails = [
       difficulty: 'Medium',
       servings: 1,
       tags: ['Coffee', 'Vodka', 'Cocktail'],
-      image: 'https://placehold.co/800x450',
+      image: espressoMartini,
       ingredients: [
         "2 oz vodka",
         "1 oz fresh espresso",
@@ -58,7 +62,7 @@ const drinksDetails = [
       difficulty: 'Easy',
       servings: 2,
       tags: ['Non-Alcoholic', 'Tropical', 'Smoothie'],
-      image: 'https://placehold.co/800x450',
+      image: pinaColada,
       ingredients: [
         "2 cups frozen pineapple chunks",
         "1 cup coconut cream",
