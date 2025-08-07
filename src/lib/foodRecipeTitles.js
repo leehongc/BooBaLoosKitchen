@@ -1,6 +1,7 @@
 import spaghettiCarbonara from '../assets/images/spaghetti-carbonara.jpg'
 import grilledChickenSalad from '../assets/images/grilled-chicken-salad.png'
 import garlicNoodles from '../assets/images/garlic-noodles.jpg'
+import wontons from '../assets/images/wontons.jpg'
 
 const foodRecipeTitles = [
     {
@@ -26,9 +27,18 @@ const foodRecipeTitles = [
       title: 'San Francisco-Style Vietnamese American Garlic Noodles',
       prepTime: 5,
       cookTime: 10,
-      difficulty: 'Easy',
+      difficulty: 'Medium',
       tags: ['Asian Fusion', 'Pasta', 'Quick'],
       image: garlicNoodles
+    },
+    {
+      id: 4,
+      title: 'Turkey Wontons',
+      prepTime: 45,
+      cookTime: 20,
+      difficulty: 'Medium',
+      tags: ['Wontons', 'Turkey'],
+      image: wontons
     }
   ];
 

@@ -1,6 +1,7 @@
 import spaghettiCarbonara from '../assets/images/spaghetti-carbonara.jpg'
 import grilledChickenSalad from '../assets/images/grilled-chicken-salad.png'
 import garlicNoodles from '../assets/images/garlic-noodles.jpg'
+import wontons from '../assets/images/wontons.jpg'
 
 
 const foodRecipeDetails = [
@@ -94,6 +95,40 @@ const foodRecipeDetails = [
       "Add cheese, stir and toss vigorously over high heat until sauce is creamy and emulsified, about 30 seconds.",
       "Adjust consistency with pasta water if needed.",
       "Stir in optional scallions and serve immediately."
+    ]
+  },
+  {
+    id: 4,
+    title: 'Turkey Wontons',
+    description: "Hong made recipe.",
+    prepTime: 45,
+    cookTime: 20,
+    difficulty: 'Medium',
+    servings: 4,
+    tags: ['Wontons', 'Turkey', 'Dinner'],
+    image: wontons,
+    ingredients: [
+      "1.75 lbs ground turkey",
+      "5 spring onions, thinly sliced",
+      "2 teaspoons HonDashi powder",
+      "1 teaspoon MSG (optional)",
+      "1.5 tablespoons dark soy sauce",
+      "2 tablespoons sesame oil",
+      "1 tablespoon sea salt",
+      "2.5 cups water",
+      "around 180 wonton wrappers"
+    ],
+    instructions: [
+     "Transfer the ground turkey to a large mixing bowl and gradually pour in the water 1 cup at a time while mixing until fully incorporated.",
+      "Evenly sprinkle in the HonDashi and MSG, continue to mix until well combined.",
+      "Mix in the dark soy sauce and sesame oil until evenly distributed.",
+      "Fold in the spring onions.",
+      "Pan fry a small piece of the mixture to taste and adjust seasoning with salt as needed.",
+      "Wrap the wontons to your desired shape and size.",
+      "Bring water to boil in a medium pot over high heat.",
+      "Add wontons and stir gently to prevent sticking to the bottom.",
+      "Once wontons float to the surface, cook for 1 additional minute and serve immediately.",
+      "Remove wontons and serve immediately, or store wrapped uncooked wontons in freezer for later use."
     ]
   }
 ];
